@@ -7,28 +7,34 @@ body {
     
 }
 
-.card-sfondo::before {
-    background-color: black;
-    opacity: 0.6;
-}
+
+
 
 
 .card-sfondo {
     position: relative;
-    width: 350;
-    height: 450;
+    width: 550px;
+    height: 650px;
     margin-top: 300px;
     padding: 15px;
     overflow: hidden;
   
 }
 
-.card-sfondo:hover {
-    opacity: 0.9;
+.card-sfondo::before {
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+.card-sfondo img:hover {
+    filter: brightness(50%);
 }
 
 .card-sfondo img {
     border-radius: 30px;
+    position: absolute;    
+
 }
 
 .tasto-save {
